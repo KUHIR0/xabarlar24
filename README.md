@@ -1,1 +1,1 @@
-# xabarlar24
+# xabarlar24 VIRSTKA
