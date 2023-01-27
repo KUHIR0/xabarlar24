@@ -1,4 +1,10 @@
-/* FONTS */
+/* Tabl of contents */
+/* Fonts */
+/* General styles */
+/* container */
+
+
+/* FONTS-Fubik */
 @font-face {
     font-family: "Rubik";
     font-style: normal;
@@ -26,9 +32,7 @@
 }
 
 
-
-
-
+/* FONTS-Roboto */
 @font-face {
     font-family: "Roboto";
     font-style: normal;
@@ -81,6 +85,30 @@
     url("../webfonts/roboto-v30-latin-500italic.svg#Roboto") format("svg"); 
 }
 
+
+/* General styles */
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
+    height: 100%;
     font-family: "Rubik", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343
 } 
+
+/* CONTAINER */
+.container {
+   max-width: 1240px; 
+   padding: 0 20px;
+   margin: 0 auto;
+}
